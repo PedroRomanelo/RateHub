@@ -2,6 +2,6 @@
 
 public class MediaGenres
 {
-    public int Media_id { get; set; } 
-    public int Genre_id { get; set; }
+    public required int Media_id { get; set; } 
+    public required int Genre_id { get; set; }
 }

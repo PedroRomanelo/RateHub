@@ -16,10 +16,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Model\Enums\" />
     <Folder Include="Model\Validators\" />
     <Folder Include="Model\Responses\" />
-    <Folder Include="Model\Requests\" />
     <Folder Include="Service\Services\" />
     <Folder Include="Service\Interfaces\" />
     <Folder Include="Repository\Interfaces\" />

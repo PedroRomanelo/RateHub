@@ -1,0 +1,397 @@
+﻿using System.ComponentModel;
+
+namespace RateHub.Model.Enums
+{
+    public enum CountryCode
+    {
+        [Description("Afeganistão")] 
+        AF,
+        [Description("África do Sul")] 
+        ZA,
+        [Description("Albânia")] 
+        AL,
+        [Description("Alemanha")] 
+        DE,
+        [Description("Andorra")] 
+        AD,
+        [Description("Angola")] 
+        AO,
+        [Description("Antígua e Barbuda")] 
+        AG,
+        [Description("Arábia Saudita")] 
+        SA,
+        [Description("Argélia")] 
+        DZ,
+        [Description("Argentina")] 
+        AR,
+        [Description("Armênia")] 
+        AM,
+        [Description("Austrália")] 
+        AU,
+        [Description("Áustria")] 
+        AT,
+        [Description("Azerbaijão")] 
+        AZ,
+        [Description("Bahamas")] 
+        BS,
+        [Description("Bangladesh")] 
+        BD,
+        [Description("Barbados")] 
+        BB,
+        [Description("Barein")] 
+        BH,
+        [Description("Belarus")] 
+        BY,
+        [Description("Bélgica")] 
+        BE,
+        [Description("Belize")] 
+        BZ,
+        [Description("Benin")] 
+        BJ,
+        [Description("Butão")] 
+        BT,
+        [Description("Bolívia")] 
+        BO,
+        [Description("Bósnia e Herzegovina")] 
+        BA,
+        [Description("Botsuana")] 
+        BW,
+        [Description("Brasil")]
+        BR,
+        [Description("Brunei")] 
+        BN,
+        [Description("Bulgária")] 
+        BG,
+        [Description("Burkina Faso")] 
+        BF,
+        [Description("Burundi")] 
+        BI,
+        [Description("Cabo Verde")] 
+        CV,
+        [Description("Camarões")] 
+        CM,
+        [Description("Camboja")] 
+        KH,
+        [Description("Canadá")] 
+        CA,
+        [Description("Catar")] 
+        QA,
+        [Description("Cazaquistão")] 
+        KZ,
+        [Description("Chade")] 
+        TD,
+        [Description("Chile")] 
+        CL,
+        [Description("China")] 
+        CN,
+        [Description("Chipre")] 
+        CY,
+        [Description("Colômbia")] 
+        CO,
+        [Description("Comores")] 
+        KM,
+        [Description("Congo")] 
+        CG,
+        [Description("República Democrática do Congo")] 
+        CD,
+        [Description("Coreia do Norte")] 
+        KP,
+        [Description("Coreia do Sul")] 
+        KR,
+        [Description("Costa do Marfim")] 
+        CI,
+        [Description("Costa Rica")] 
+        CR,
+        [Description("Croácia")] 
+        HR,
+        [Description("Cuba")] 
+        CU,
+        [Description("Dinamarca")] 
+        DK,
+        [Description("Djibuti")] 
+        DJ,
+        [Description("Dominica")] 
+        DM,
+        [Description("Egito")] 
+        EG,
+        [Description("El Salvador")] 
+        SV,
+        [Description("Emirados Árabes Unidos")] 
+        AE,
+        [Description("Equador")] 
+        EC,
+        [Description("Eritreia")] 
+        ER,
+        [Description("Eslováquia")] 
+        SK,
+        [Description("Eslovênia")] 
+        SI,
+        [Description("Espanha")] 
+        ES,
+        [Description("Essuatíni")] 
+        SZ,
+        [Description("Estados Unidos")] 
+        US,
+        [Description("Estônia")] 
+        EE,
+        [Description("Etiópia")] 
+        ET,
+        [Description("Fiji")] 
+        FJ,
+        [Description("Filipinas")] 
+        PH,
+        [Description("Finlândia")] 
+        FI,
+        [Description("França")] 
+        FR,
+        [Description("Gabão")] 
+        GA,
+        [Description("Gâmbia")] 
+        GM,
+        [Description("Gana")] 
+        GH,
+        [Description("Geórgia")] GE,
+        [Description("Granada")] 
+        GD,
+        [Description("Grécia")] 
+        GR,
+        [Description("Guatemala")] 
+        GT,
+        [Description("Guiana")] 
+        GY,
+        [Description("Guiné")] 
+        GN,
+        [Description("Guiné-Bissau")] 
+        GW,
+        [Description("Guiné Equatorial")] 
+        GQ,
+        [Description("Haiti")] 
+        HT,
+        [Description("Honduras")] 
+        HN,
+        [Description("Hungria")] 
+        HU,
+        [Description("Iêmen")] 
+        YE,
+        [Description("Ilhas Marshall")] 
+        MH,
+        [Description("Índia")] 
+        IN,
+        [Description("Indonésia")] 
+        ID,
+        [Description("Irã")] 
+        IR,
+        [Description("Iraque")] 
+        IQ,
+        [Description("Irlanda")] 
+        IE,
+        [Description("Islândia")] 
+        IS,
+        [Description("Israel")] 
+        IL,
+        [Description("Itália")] 
+        IT,
+        [Description("Jamaica")] 
+        JM,
+        [Description("Japão")] 
+        JP,
+        [Description("Jordânia")] 
+        JO,
+        [Description("Kiribati")] 
+        KI,
+        [Description("Kuwait")] 
+        KW,
+        [Description("Laos")] 
+        LA,
+        [Description("Lesoto")] 
+        LS,
+        [Description("Letônia")] 
+        LV,
+        [Description("Líbano")] 
+        LB,
+        [Description("Libéria")] 
+        LR,
+        [Description("Líbia")] 
+        LY,
+        [Description("Liechtenstein")] 
+        LI,
+        [Description("Lituânia")] 
+        LT,
+        [Description("Luxemburgo")] 
+        LU,
+        [Description("Macedônia do Norte")] 
+        MK,
+        [Description("Madagascar")] 
+        MG,
+        [Description("Malásia")] 
+        MY,
+        [Description("Malaui")] 
+        MW,
+        [Description("Maldivas")] 
+        MV,
+        [Description("Mali")] 
+        ML,
+        [Description("Malta")] 
+        MT,
+        [Description("Marrocos")] 
+        MA,
+        [Description("Maurício")] 
+        MU,
+        [Description("Mauritânia")] 
+        MR,
+        [Description("México")] 
+        MX,
+        [Description("Mianmar")] 
+        MM,
+        [Description("Micronésia")] 
+        FM,
+        [Description("Moçambique")] 
+        MZ,
+        [Description("Moldávia")] 
+        MD,
+        [Description("Mônaco")] 
+        MC,
+        [Description("Mongólia")] 
+        MN,
+        [Description("Montenegro")] 
+        ME,
+        [Description("Namíbia")] 
+        NA,
+        [Description("Nauru")] 
+        NR,
+        [Description("Nepal")] 
+        NP,
+        [Description("Nicarágua")] 
+        NI,
+        [Description("Níger")] 
+        NE,
+        [Description("Nigéria")] 
+        NG,
+        [Description("Noruega")] 
+        NO,
+        [Description("Nova Zelândia")] 
+        NZ,
+        [Description("Omã")] 
+        OM,
+        [Description("Países Baixos")] 
+        NL,
+        [Description("Palau")] 
+        PW,
+        [Description("Palestina")] 
+        PS,
+        [Description("Panamá")] 
+        PA,
+        [Description("Papua-Nova Guiné")] 
+        PG,
+        [Description("Paquistão")] 
+        PK,
+        [Description("Paraguai")] 
+        PY,
+        [Description("Peru")] 
+        PE,
+        [Description("Polônia")] 
+        PL,
+        [Description("Portugal")] 
+        PT,
+        [Description("Quênia")] 
+        KE,
+        [Description("Quirguistão")] 
+        KG,
+        [Description("Reino Unido")] 
+        GB,
+        [Description("República Centro-Africana")] 
+        CF,
+        [Description("República Dominicana")] 
+        DO,
+        [Description("Romênia")] 
+        RO,
+        [Description("Ruanda")] 
+        RW,
+        [Description("Rússia")] 
+        RU,
+        [Description("Ilhas Salomão")] 
+        SB,
+        [Description("Samoa")] 
+        WS,
+        [Description("San Marino")] 
+        SM,
+        [Description("Santa Lúcia")] 
+        LC,
+        [Description("São Cristóvão e Névis")] 
+        KN,
+        [Description("São Tomé e Príncipe")] 
+        ST,
+        [Description("São Vicente e Granadinas")] 
+        VC,
+        [Description("Seicheles")] 
+        SC,
+        [Description("Senegal")] 
+        SN,
+        [Description("Serra Leoa")] 
+        SL,
+        [Description("Sérvia")] 
+        RS,
+        [Description("Singapura")] 
+        SG,
+        [Description("Síria")] 
+        SY,
+        [Description("Somália")] 
+        SO,
+        [Description("Sri Lanka")] 
+        LK,
+        [Description("Sudão")] 
+        SD,
+        [Description("Sudão do Sul")] 
+        SS,
+        [Description("Suécia")] 
+        SE,
+        [Description("Suíça")] 
+        CH,
+        [Description("Suriname")] 
+        SR,
+        [Description("Tajiquistão")] 
+        TJ,
+        [Description("Tailândia")] 
+        TH,
+        [Description("Tanzânia")] 
+        TZ,
+        [Description("Tchequia")] 
+        CZ,
+        [Description("Timor-Leste")] 
+        TL,
+        [Description("Togo")] 
+        TG,
+        [Description("Tonga")] 
+        TO,
+        [Description("Trinidad e Tobago")] 
+        TT,
+        [Description("Tunísia")] 
+        TN,
+        [Description("Turcomenistão")] 
+        TM,
+        [Description("Turquia")] 
+        TR,
+        [Description("Tuvalu")] 
+        TV,
+        [Description("Ucrânia")] 
+        UA,
+        [Description("Uganda")] 
+        UG,
+        [Description("Uruguai")] 
+        UY,
+        [Description("Uzbequistão")] 
+        UZ,
+        [Description("Vanuatu")] 
+        VU,
+        [Description("Vaticano")] 
+        VA,
+        [Description("Venezuela")] 
+        VE,
+        [Description("Vietnã")] 
+        VN,
+        [Description("Zâmbia")] 
+        ZM,
+        [Description("Zimbábue")] 
+        ZW
+    }
+}
