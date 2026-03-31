@@ -17,11 +17,8 @@
 
   <ItemGroup>
     <Folder Include="Model\Validators\" />
-    <Folder Include="Model\Responses\" />
     <Folder Include="Service\Services\" />
     <Folder Include="Service\Interfaces\" />
-    <Folder Include="Repository\Interfaces\" />
-    <Folder Include="Repository\Services\" />
     <Folder Include="ServiceBus\" />
     <Folder Include="Util\" />
     <Folder Include="Service\" />
